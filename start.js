@@ -1,3 +1,4 @@
-import Request from 'request';
+import LoadUrl from './functions/LoadUrl';
+import FetchRecipes from './functions/FetchRecipes';
 
-console.log('saiu');
+FetchRecipes();
